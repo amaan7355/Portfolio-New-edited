@@ -1,0 +1,157 @@
+body {
+  text-align: center;
+  color: #40514E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.topcontainer {
+  background-color: #CDF0EA;
+  height: 33.5rem;
+  padding: 6rem;
+  margin: none none none none;
+}
+
+.ruler {
+  border: dotted 5px;
+  border-bottom: none;
+  width: 40px;
+  margin: 50px auto;
+}
+
+h1 {
+  margin-top: 2rem;
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  color: #11999E;
+}
+
+h2 {
+  font-family: 'Alkalami', serif;
+  font-size: 2rem;
+  color: #11999E;
+}
+
+h3 {
+  font-family: 'Alkalami', serif;
+  color: #11999E;
+}
+
+p {
+ font-size: 120%;
+}
+
+.pro{
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 13rem;
+  top: 4rem;
+  height: 2.5rem;
+  width: 8rem;
+}
+
+.bottom-wallpaper {
+  position: absolute;
+  left: 11rem;
+  height: 2.5rem;
+  width: 8rem;
+}
+
+.profile {
+  height: 10rem;
+  width: 10rem;
+  margin-top: 3%;
+}
+
+.intro1 {
+  font-weight: bold;
+}
+
+.intro2 {
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+
+.programmer{
+  height: 18.5rem;
+  width: 32rem;
+  margin-top: 5rem
+}
+
+.skill-1 {
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-2 {
+  width: 35%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.btn {
+  background: #34d9d9;
+  background-image: -webkit-linear-gradient(top, #34d9d9, #2b92b8);
+  background-image: -moz-linear-gradient(top, #34d9d9, #2b92b8);
+  background-image: -ms-linear-gradient(top, #34d9d9, #2b92b8);
+  background-image: -o-linear-gradient(top, #34d9d9, #2b92b8);
+  background-image: linear-gradient(to bottom, #34d9d9, #2b92b8);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 12px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 8px 18px 8px 18px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #1fc2b4;
+  background-image: -webkit-linear-gradient(top, #1fc2b4, #16b8b8);
+  background-image: -moz-linear-gradient(top, #1fc2b4, #16b8b8);
+  background-image: -ms-linear-gradient(top, #1fc2b4, #16b8b8);
+  background-image: -o-linear-gradient(top, #1fc2b4, #16b8b8);
+  background-image: linear-gradient(to bottom, #1fc2b4, #16b8b8);
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #CDF0EA;
+}
+
+.middle-container {
+  background-color: #F9F9F9;
+}
+
+.footer-link {
+  padding: 15px;
+}
+
+.bottom-container {
+background-color: #11999E;
+height: 100px;
+}
+
+.last {
+  color: white;
+  font-size: 1em;
+}
