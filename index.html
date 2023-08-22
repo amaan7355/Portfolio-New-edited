@@ -33,21 +33,21 @@
 
         @keyframes path0 {
             0% {
-                transform: rotate(-10deg);
+                transform: rotate(20deg);
             }
 
             100% {
-                transform: rotate(10deg);
+                transform: rotate(-20deg);
             }
         }
 
         @keyframes path1 {
             0% {
-                transform: rotate(-30deg);
+                transform: rotate(-20deg);
             }
 
             100% {
-                transform: rotate(30deg);
+                transform: rotate(20deg);
             }
         }
 
@@ -60,51 +60,83 @@
                 transform: rotate(-40deg);
             }
         }
+
+        @keyframes path3 {
+            0% {
+                transform: rotate(-40deg);
+            }
+
+            100% {
+                transform: rotate(40deg);
+            }
+        }
+
+        .intro1 {
+            font-size: 200%;
+            font-weight: bold;
+            padding: 20px;
+            font-family: Montserrat;
+            margin-top: 50px;
+        }
+
+        .intro2 {
+            /* font-family: Montserrat; */
+            font-size: 170%;
+            width: 80%;
+            margin: auto;
+            line-height: 2;
+            text-align: center;
+        }
     </style>
 </head>
 
-<body class="text-center m-0" style="font-family: Montserrat;">
-    <!-- <div class="" style=" padding: 6rem;">
-       <div class="row">
-                <div class="col-md-6">
-                    <div>
-                        <img class="d-block m-auto" style="width: 18rem;" src="amaan_taj_circle.png" alt="amaan-pic">
-                    </div><br><br> 
-            </div> 
-        <div>-->
-    <div>
+<body class="m-0" style="font-family: Montserrat;">
+    <section>
+        <div>
+            <svg class="background--custom" id="demo" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path fill="#B4FF00" fill-opacity="0.7" d="M-100 -100L200 -100L200 90L-100 90Z"
+                    style="animation: path0 4.424778761061947s linear infinite alternate;" />
+                <path fill="#00FFFF" fill-opacity="0.5" d="M-100 -100L200 -100L200 80L-100 80Z"
+                    style="animation: path1 5.681818181818182s linear infinite alternate;" />
+                <path fill="#FF00FF" fill-opacity="0.2" d="M-100 -100L200 -100L200 40L-100 40Z"
+                    style="animation: path2 3.2467532467532467s linear infinite alternate;" />
+                <path fill="#2EFF00" fill-opacity="0.3" d="M-100 -100L200 -100L200 20L-100 20Z"
+                    style="animation: path3 3.4965034965034967s linear infinite alternate;" />
+                </svg>
+                <div class="container" style="background: rgba(255, 255, 255, 0.6); margin-top: 3rem;">
+                    <div class="row">
+                        <div class="col-md-6 py-3">
+                            <div>
+                                <img class="d-block m-auto" style="width: 400px;" src="amaan_pic.jpg" alt="amaan-pic">
+                            </div>
+                        </div>
 
-        <svg class="background--custom" id="demo" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <path fill="#B4FF00" fill-opacity="0.7" d="M-100 -100L200 -100L200 90L-100 90Z"
-                style="animation: path0 4.424778761061947s linear infinite alternate;" />
-            <path fill="#00FFFF" fill-opacity="0.5" d="M-100 -100L200 -100L200 80L-100 80Z"
-                style="animation: path1 5.681818181818182s linear infinite alternate;" />
-            <path fill="#FF00FF" fill-opacity="0.2" d="M-100 -100L200 -100L200 40L-100 40Z"
-                style="animation: path2 3.2467532467532467s linear infinite alternate;" />
-            <path fill="#2EFF00" fill-opacity="0.3" d="M-100 -100L200 -100L200 20L-100 20Z"
-                style="animation: path3 3.4965034965034967s linear infinite alternate;" />
-        </svg>
-
-        <div class="container" style="background: rgba(255, 255, 255, 0.6); margin-top: 5rem;">
-            <div class="row">
-                <div class="col-md-6 py-3">
-                    <div>
-                        <img class="d-block m-auto" style="width: 18rem;" src="amaan_taj_circle.png" alt="amaan-pic">
-                    </div><br><br> 
-            </div>
-                <div class="col-md-6 py-3">
-                    <h1 class="fw-bold" style="font-size: 4rem; font-family: Sacramento, cursive;">I'm Amaan Alam
-                    </h1>
-                    <h2 class="fst-italic mt-4" style="font-size: 2rem; font-family: 'Alkalami', serif;">
-                        a <span class="" style="text-decoration: underline;">Pro</span>grammer</h2>
-                    <div class="mt-5">
-                        <button class="btn btn-lg btn-dark mx-4">Contact me</button>
-                        <button class="btn btn-lg btn-secondary">Hire me!</button>
+                        <div class="col-md-6 py-3 text-center">
+                            <h1 class="mt-3">Hello, My Name is</h1>
+                            <p class="display-1 fw-bold my-4"
+                                style="font-family: Sacramento, cursive; font-size: 5rem;">
+                                Amaan Alam</p>
+                            <h1 class="fw-bold mt-5">I am a Software Engineer</h1>
+                            <div class="mt-4">
+                                <a href="#footer"><button class="btn btn-dark btn-lg mx-4">Contact me</button></a>
+                                <a href="#footer"><button class="btn btn-secondary btn-lg">Hire me</button></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
         </div>
-    </div>
+    </section>
+
+    <section>
+        <div class="middlecontainer mt-4">
+            <div class="row">
+                <div class="text-center">
+                    <p class="intro1">Full Stack Developer | Programmer | Learner.</p>
+                </div>
+            </div><br>
+            <p class="intro2 mt-5">I'm a quick learner as well as a developer who love to explore new things. I ❤️ Tea, junk food and travelling.</p>
+        </div>
+    </section>
 
 
 
